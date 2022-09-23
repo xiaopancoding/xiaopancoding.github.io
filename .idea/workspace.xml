@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0ae56fa-bd1e-4487-b399-7f0a98b9c63b" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.exe.lastcodeanalysissucceeded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图.sln - 快捷方式.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/NativeCodeAnalysis.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/tanchishe.nativecodeanalysis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/tanchishe.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/vc.nativecodeanalysis.all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/yidong.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/Debug/绘图.tlog/绘图.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/tanchishe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/c语言/绘图/绘图/tanchishe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/A B Problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/A B Problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/练习.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/c语言/绘图" />
+  </component>
+  <component name="ProjectId" id="28huLe3PfTAtTNpzEGAtNJ290rf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="human_activity_reco_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="panjianminbiancheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/studyAssistant/care-for-your-health-master/care-for-your-health-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/studyAssistant/care-for-your-health-master/care-for-your-health-master/human_activity_reco_deque.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.human_activity_reco_deque" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a0ae56fa-bd1e-4487-b399-7f0a98b9c63b" name="更改" comment="" />
+      <created>1651681085434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651681085434</updated>
+    </task>
+    <servers />
+  </component>
+</project>
