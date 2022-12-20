@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <style>
+
+
+    <script>
+        // var a = 10;
+        // function fun(a, b) {
+        //     return a+b;
+        // }
+        // alert(fun(1, 2));
+    
+        window.onload = function() {
+
+            var obj = document.getElementById("001");
+            obj.onclick = function() {
+                alert("nihidao ");
+            }
+        }
+        //  这里是动态的注册
+        window.onload = function() {
+            var obj = document.getElementById("001");
+            obj.onclick = function() {
+
+            }
+        }
+
+        window.onload = function() {
+            var obj = document.getElementById("001");
+            obj.onsubmit = function() {
+
+            }
+        }
+
+        // 还有一个提交表单的， 就是提交上去要去验证， 如果发现不合法  就应该阻止提交， 那么就应该返回一个false
+        //  这样就会阻止提交了
+        //  onsubmit是提交事件， 就是把一个表单之后验证的， 
+
+    </script>
+    <button id="001">点击</button>
+    <!-- 利用link标签可以用来引入css样式代码， 可以说这个link标签就是专门为了引入css样式 -->
+    <!--在style中  可以写css样式 -->
+    <link rel="stylesheet" type="text/css" href="这里填css的地址">
+    <style type="text/css">
+        /* css格式是 选择器，起始就是html中标签名， 属性和值 */
         h1{
-            color: rgb(255, 0, 0);
+            color: rgb(118, 112, 55);
         }
     </style>
+
     <center>
     <h1>
         HTML5
@@ -54,4 +98,50 @@
     </p>
     </center>
 </body>
+
 </html>
+
+
+<!-- 
+
+
+    超链接
+    <a href="这里如果填的是一个文件或者压缩包  那么就会下载这个文件"> </a>
+
+    锚点链接
+        锚点链接是通过id属性去找到的， 也就是在你要去的那个元素那里设置一个id属性， 然后用a标签href等于这个id就行了
+        <a href="#id"> </a>
+
+    
+
+
+
+    标签名选择器， 是通过标签名来控制样式的
+
+    id选择器   可以让我们通过id属性选择性的去使用这个样式  这个id是你在设置标签的时候  自己设置的id值， 可以随便设置
+    然后我们久可以通过这个id去找到  你所需要改变的标签的样式
+    #id {
+        属性: 值;
+        属性: 值;
+    }
+
+    class选择器（类选择）
+        .class {
+            属性：值;
+            属性：值；
+        }
+
+    组合选择的格式是：
+        选择器1， 选择器2， 选择器...n {
+            属性：值；
+            属性：值；
+        }
+    组合选择器可以让多个选择器公用同一个css样式代码
+
+
+
+
+
+
+
+ -->

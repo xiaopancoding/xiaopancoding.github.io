@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+
+        .box1 {
+            width: 50px;     /* 这里的width 和height表示的内容区的大小*/
+            height: 50px;
+            background-color: aquamarine;  /* 这个是背景颜色 */
+            /* 这个是设置背景图片  url() 里面填图片的地址 */
+            background-image: url();  
+            /* 这个属性表示背景的平铺， 默认是平铺的 当然也能设置x轴平铺  也能设置y轴平铺 */
+            background-repeat: no-repeat;  /*这个表示不平铺*/
+            /* 这个是设置背景图片的位置， 像什么top right left 等， 这些方位名词  顺序是没有关系的   前面的是x轴  后面的是y轴  */
+            background-position: center center;
+            /* 这个是设置 背景图片是否  是随着内容滚动而滚动  还是固定的  scroll 滚动的(默认的)  fixed 固定的 */
+            background-attachment: fixed;
+            
+            
+        
+
+            
+
+            /* 可以直接简写， 就是直接用background的设置   后面没有顺序  但是一般来讲会
+            
+                背景颜色 背景图片地址  背景平铺 背景滚动 背景位置  
+
+                设置背景颜色可以写成  background：rgba(0, 0, 0, 0.4) 这个可以用来设置背景的透明度
+            */
+
+
+
+
+            /* 
+                设置边框  至少要设置三个样式： border-color, border-style, border-width
+
+            */
+
+            /* 
+                这里的border-width  表示边框的大小，  然后两个相加才是整个盒子的大小 
+                border-width 是可以设置四个放下的像素的 上右下左 的顺序，顺时针
+
+                三个值， 表示上  左右 下
+                两个值： 上下  左右
+
+                边框的大小会影响盒子的大小
+
+                border-XXX-width xxx可以事top buttom right left  用来单独指定某一边的值
+            */
+
+            /*
+                当然 border-color也是可以设置四边的， 四个边也是想设置什么颜色就设置什么颜色
+            
+
+                border-style  solid 实线  dotted 点状虚线  dashed虚线 double 双线
+            */
+
+
+            /* 
+                padding 内边距
+                    就是内容区和边框的距离
+                    一共有四个方向
+                        padding-top
+                        padding-right
+                        padding-buttom
+                        padding-left
+                    
+                    内边距是会影响盒子的大小的， 而且背景颜色会延申到内边距上
+
+                也就是说  一个盒子的可见大小  就是有  边框  内边距  内容区三个部分决定的 也就是三个相加
+
+                padding 也是简写的  可以直接写 大小
+                例如： padding：10px, 20px, 30px, 40px;
+
+                和上面的border-width一样
+            */
+
+
+            /* 
+
+                外边距（margin）
+                    外边距不会影响盒子可见框的大小
+                    但是外边距会影响可见框的位置
+
+                    当然也是一样， 也是有四个方向
+                    margin-top: 上边距 设置一个正值 元素会向下移动
+                    margin-right  默认情况下不会有任何作用
+                    margin-buttom  下边距 设置一个正值 下边元素会向下移动
+                    margin-left  左边距  设置一个正值 元素会向右移动
+
+                    如果设置的是一个负值 那么就是往正值的相反方向移动
+
+                    默认情况下 设置的左和上边距会移动自己的
+                    设置下和右会移动其他元素
+
+
+                    margin会影响盒子实际占用空间大小
+            */
+
+
+            border-width: 10px;
+            border-color: brown;
+            border-style:solid;
+            
+            margin-top: 100px;
+            margin-left: 100px;
+            
+            /* 这个是说合并边框 一般这个是用在表格中的， 也就是一般是给td的这个样式 因为会有重叠， 所以使用这个可以去掉重叠 */
+            border-collapse: collapse;
+            
+
+            /* 如果盒子本身没有指定width和height属性， 那么 此时padding不会撑开盒子的大小
+                其实就是如果没有设置width的话，那么就认为是父元素一样宽，加了padding的话， 那也就只是增加了高度的， 宽度是不会增加的
+            
+
+
+
+                在一个盒子中  如果想让一个一个行内元素 或则行内块元素我们就使用  text-align:center 给其父元素  这样就能使其水平居中了
+
+
+
+                嵌套的块元素  会出现垂直外边距的塌陷问题  
+                    解决方案是
+                        为父元素设置一个上边框
+                        为父元素设置上内边距
+                        为父元素添加 overflow：hidden 也行，
+            */
+
+
+        }
+
+    </style>
+<body>
+    
+
+    <div class="box1">
+
+        <!-- <div></div> -->
+        
+    </div>
+
+</body>
+</html>

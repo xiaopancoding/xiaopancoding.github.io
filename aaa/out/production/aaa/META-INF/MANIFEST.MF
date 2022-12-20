@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+view.Main-Class: mmdl.Main
+

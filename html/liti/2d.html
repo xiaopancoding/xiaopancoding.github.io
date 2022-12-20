@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 
+
+    2D转换
+        transform: translate(x, y)  x表示x坐标 Y 表示y坐标  也就是在x 或y上移动多少  如果里面用百分比  就是相对于自身来说的
+        translate  对行内元素是无效的， 没有用的
+        最大的优点就是不会影响其他元素的位置
+
+        transform: rotate(度数) 单位是deg  正数时顺时针旋转，  负数时逆时针旋转
+
+
+        
+        transform: translate(x, y);
+        transform: rotate(45deg);
+        
+
+        transform-origin: 
+
+        transform-origin : x y;   这个是设置旋转中心点  （x， y） 表示中心点的坐标
+            也可以给方位词，  什么什么top ，right left 等
+
+        transform: scale(x, y)  给元素增加了这个属性之后就能给元素放大 或 缩小了，  默认是移中心点放大或缩小的
+                        (2, 2) 表示宽放大2倍， 高也2倍
+                        (0.5, 0.5)  表示宽高缩小0.5 
+                        
+                    
+        transform的综合写法  translate() rotate() scale() 等
+
+        如果我们同时有位移和其他属性的时候  一定要先写位移  再写其他的属性
+
+
+
+    动画：
+
+        这里都还只是定义状态  定义好了  就可以在要用的元素里调用
+
+      
+        
+        @keyframes  动画名称 {
+        这里也可以写from    0% {  动画的开始
+
+                width: 100px;
+            }
+        这里也能写to    100% {  动画的结束
+                width: 200px;
+            }   
+        }
+        
+
+        div {
+
+            调用
+            animation-name:  定义的动画名称
+            持续时间
+            animation-duration: 2s;
+
+
+            重复次数
+            animation-iteration-count: 默认是1次  还可以设置为  infinite 无限次
+
+
+            是否反方向播放
+            animation-direction:  alternate  这个就是反方先运动
+
+        }
+
+        
+
+
+    
+
+
+ -->
+<body>
+    
+</body>
+</html>

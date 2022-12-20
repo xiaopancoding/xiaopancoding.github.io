@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        /* 
+
+        元素的水平方向的布局：
+            元素在其父元素中水平位置方向的位置有一下属性决定：
+                margin-left
+                border-left
+                padding-left
+                widht
+                padding-right
+                border-right
+                margin-right
+            
+                一个元素在其父元素中一定会满足
+    margin-left + border-left + padding-left + widht + padding-right + border-right + margin-right = (其父元素的内容区的大小)
+
+    就会没有满足 浏览器也会自动 帮你设置成等式相等
+    比如  0 + 0 + 0 + 200 + 0 + 0 + 0 = 800
+    浏览器会把margin-right 设置成600
+    如果等式不成立  则这个等式为过渡等式， 也就是暂时的， 当然这里描述的是没有auto的， 
+    其中有width margin-left  margin-right 可以设置成auto
+    width默认就是auto  其实意思就是自动的会给设置值 比如0 + 0 + 0 + 0 + 0 + 0 + 0 = 800 auto=800
+
+    如果将一个宽度和外边距设置为auto 则宽度会调整到最大  设置为auto的外边距为自动设置为零
+    如果将三个值都设置为auto 则外边距都是零 宽度最大
+    如果将两个值设置为auto  auto + 0 + 0 + 200 + 0 + auto = 800 则这两个auto值会相等
+
+
+    也就是说把外边距设置成  auto 子元素就会居中
+
+    总的来讲就是  子元素会撑满父元素的内容区
+        */
+
+
+
+        /* 
+            垂直布局：
+                垂直方向倒是没有那么多讲究  
+                如果父元素没有设置高度， 那么就是被子元素不断撑开的
+
+                如果父元素设置了高度的话， 那么该是多少就是多少
+
+            如果子元素超过了父元素的大小 那么就会有溢出
+
+            使用overflow 属性来设置父元素如何处理溢出的子元素
+
+            overflow
+                visible： 默认值 子元素会从父元素中溢出， 在父元素的外部的位置显示
+                hidden： 将溢出的部分给裁剪掉不会显示
+                scroll： 生成两个滚动条 可以通过滚动条查看完整的内容
+                auto： 根据需要生成滚动条
+
+
+        */
+        .box1 {
+            width: 500px;
+            height: 110px;
+            border: 10px red solid
+
+
+        }
+
+        .inner {
+            width: 100px;
+            height: 110px;
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box1">
+
+        <div class="inner"></div>
+    </div>
+
+
+</body>
+</html>

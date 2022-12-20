@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // var age = prompt("输入您的年龄");
+        // var name = prompt("输入您的姓名");
+        // alert("" + age + name);
+        var a = [];
+        
+        var arr = new Array();
+        arr.push(1);
+        arr.pop();
+        arr.sort();
+
+    </script>
+</head>
+<!-- 
+    在js中
+        用户输入的是：
+            prompt("这里面还可以加说明")
+        输出框  也交警告框
+            alert("这里面能填你要填的东西")
+        浏览器控制台输出
+            console.log("这里也是一样")
+        
+        
+
+            js也能一排写下几个变量， 
+            var a = 19, name = "pjm", age = 18;
+
+            
+
+    var a;  这个a就是undefined
+    只声明，不赋值，  默认值就是  undefined  表示未定义
+
+    a = 10;  就直接是10；
+    不声明只赋值  就是直接是 那个值，    相当于是全局变量
+
+
+    typeof()  获取变量的类型
+    var  这个关键字  是不确定是哪个类型的， 所有的类型都可以用他来声明
+
+    Number  数字类型，  包含了整型和浮点型
+
+    Number.MAX_VALUE   Infinity  正无穷
+    Number.MIN_VALUE   -Infinity   负无穷
+
+    "124" - 31 这样就会出现 非数值  NaN  表示一个非数值
+    一个字符串减去一个数字类型  就会出现一个非数字的类型   关键字就是  NaN
+
+
+    isNaN()  用来判断一个xx是否是数值， 如果是数字返回  false  如果不是数字返回  true
+
+    str.length   来计算字符串有几个
+
+    在js中   js的数据类型是只有程序在运行过程中，根据等号右边的值来确定的
+
+    var a = null  这个表示空类型
+    在js中以0开头的就是八进制
+
+    在js中字符串中推荐使用  ''  单引号，  在html中的字符串推荐使用 ""  双引号
+
+    在js中  “+”  加号是 字符串拼接的意思
+
+    js中的  boolean 和 c++中的布尔类型一样是可以当作 数字进行运算的
+
+    toString()    转成字符串
+    String()     强制转换成字符串     var num = 1;    alert(String(num));
+    用加号  也可以转换成字符串  
+
+
+    parseInt(string)   将字符串类型转换成整型的数字类型
+    parseFloat(string)   将字符串类型转换成浮点类型的数字类型
+    Number()    强制类型转换
+    '10' - 0   这个也能把字符串转换成  数字类型
+
+
+    ===   在js中这是  全等运算符   要求值和数据类型都要一致
+
+    逻辑与短路运算   如果表达式1 结果为真，则返回表达式2
+                    如果表达式1 结果为假  则返回表达式1
+    console.log(123 && 456);   456
+    console.log(0 && 456);   
+    逻辑或短路运算  如果表达式1 结果为真 则返回表达式1 
+    ·              如果表达式1 结果为假 则返回表达式2
+    console.log(123 || 456) 123
+    console.log(0 || 456)   456
+    
+    
+
+    创建一个数组
+    var a = [];    和python中的一样
+
+    可以通过 数组名.length = 10;   这样进行数组的扩容
+
+    这里就声明了一个函数  在js中  形参是不用写 形参的类型的， 就是直接写一个形参名就行了
+    function add() {
+
+    }
+
+    function del(an) {
+
+    }
+    只有函数才有 arguments对象   在arguments中存储了  所有的形参， 是一个伪数组，
+
+    也可以这样声明函数
+    var fun = function() {
+
+
+    }
+
+    这样函数名就是  fun  了
+
+    在js引擎运行js 分为两步： 一个是预解析， 一个是代码执行
+
+    预解析 js引擎会把js里面所有的var 还有function 提升到当前作用域的最前面
+    console.log(num);
+    var num = 10;
+    就相当于
+    var num;
+    console.log(num);
+    num = 10;
+
+    fun();
+    var fun = function() {
+
+    }
+
+    这个相当于执行了
+    var fun;
+    fun();
+    fun = function() {
+
+    }
+
+
+    在js中创建一个对象
+
+    var obj = {};   这就创建了一个空的对象
+
+    var obj = {
+        name: 'panjianmin',
+        age: 18,
+        id: 1,
+        上面的都是属性
+        eat: function() {
+            console.log('吃');
+        }
+        这个是方法
+    }
+
+    上面创建了一个简单了对象，   如果要调用就是利用  对象名.属性 或者  方法
+
+    还可以用下面的方法创建对象
+
+    var obj = new Object();
+
+    obj.age = 10;
+    obj.name = 'pjm';
+    obj.fun = function() {
+
+    }
+
+    可以利用 构造函数  实现对象中重复的属性， 有点像java中构造器一样
+
+    function Star(name, age, id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+        上面的属性
+        this.sing = function() {
+
+        }
+        这里是构造一个方法
+    }
+
+    var ldh = new Star('ldh', 10, 1);  上面的就是一个构造函数
+
+    可以通过  ldh.name 来调用属性
+
+    可以利用 
+    for (var k in obj) {
+        这个k拿到的是属性名
+        需要 用 obj[k]  来获取属性值
+    }
+    来遍历对象  就是  for  in  语句
+
+    js中的  Math.max()  返回一组数中的最大值   和 python中一样
+
+    ver arr = new Array();  创建了一个数组对象
+    
+    Date 是一个构造函数  所以必须要用new
+    Date() 也是要new出来的，
+        Date()如果里面没有参数，那么就是返回当前系统的时间
+        
+
+    如果要写一个倒计时的功能， 就要用将来的时间戳减去现在的时间戳
+
+    可以利用以下获取当前的时间戳
+        Date.now();
+        var date = +new Date();
+        var date = new Date();
+        date.getTime();
+        date.valueOf();
+
+    function cn(time) 
+        var nowDate = +new Date();
+        var inputDate = +new Date(time);
+        var times = (inputDate - nowDate) / 1000;  这里就是剩余的秒数了
+        var d = parseInt(times / 60 / 60 / 24);
+        var h = parseInt(times / 60 / 60 % 24);
+        var m = parseInt(times / 60 % 60);
+        var s = parseInt(times % 60);
+    }
+
+    new Array()  创建的数组  有点像双端队列
+        push()  在数组的末尾添加元素
+        unshift()  在数组的头部添加元素
+        pop()  在数组的末尾删除一个元素
+        shift()  在数组的头部删除一个元素
+        reverse()  翻转数组
+        sort()   排序
+        arr.sort(function(a, b) {
+            return a - b;  升序的
+            return b - a;   降序的
+        })
+
+        indexOf()  数组中查找给定元素的第一个索引
+        lastIndexOf()  在数组中的最后一个元素的索引
+        join('分隔符')  是拼接变成字符串
+        
+
+
+    DOM  是文档对象模型
+
+    文档： 一个页面就是一个文档，DOM中使用的document表示
+    元素： 页面中的所有标签都是元素，DOM中使用element表示
+    节点： 网页中的所有内容都是节点(标签、属性、文本、注释等),DOM中使用node表示
+    DOM可以把上面都看成对象
+
+    var timer = document.getElementById('time');  表示通过id去查找文档中的标签， 里面的参数是写字符串的形式   返回的是元素对象
+                理解为  文档里的某个元素
+    console.dir()   打印我们返回的元素对象  更好的查看里面的属性和方法
+
+    
+    通过标签名获取某个元素对象的集合可以通过下标访问 参数是字符串
+    document.getElementByTagName('li')   
+    
+    通过父元素并不是通过文档获取li标签
+    var ol = document.getElementByTagName('ol');
+    var li = ol[0].getElementByTagName('li');  通过ol标签获取的对象， 但是不能直接用ol.  要用数组的形式去获取ol[0];
+
+    通过类名获取元素对象的集合
+    document.getElementByClassName();
+
+    放回指定选择器的第一个元素对象
+    document.querySelector('.box')
+
+    返回指定选择器的所有元素对象集合
+    document.querySelectorAll();
+
+    获取body元素
+    document.body;
+
+    获取html 元素
+    document.documentElement;
+
+
+
+
+    事件三要素： 事件源， 事件类型， 事件处理程序
+        事件源：  事件被触发的对象   谁
+        事件类型： 如何触发  什么事件  
+                鼠标点击   onclick  
+                鼠标经过   onmouseover
+                鼠标离开   onmouseout
+                获得鼠标焦点触发   onfocus
+                失去鼠标焦点触发   onblur
+                鼠标移动触发   onmousemove
+                鼠标弹起触发   onmouseup
+                鼠标按下触发   onmousedown  
+
+        事件处理程序： 通过一个函数赋值的方式完成
+
+    var btn = document.getElementById('btn');  获取了一个事件源对象
+    事件源对象 是 鼠标点击 类型 用函数的形式完成
+    btn.onclick = function() {
+        alert('faffa');
+    }
+
+
+    element.innerText   
+    从起始位置到终止位置的内容， 但它去除html标签， 同时空格和换行也会去掉
+    表示的是 哪个元素里面的内容发生变化
+    innerText  是不识别html标签  也就是说里面写了 html标签是不会被显示出来的
+
+    element.innerHtml   起始位置到终止位置的全部内容， 包括html标签， 同时保留空格和换行
+    这个会识别html标签  也就是说里面的html标签  是可以运行的
+
+
+
+    在表单中 
+    
+    <button id="btn">按钮</button>
+    <input type="text" value="输入内容">
+
+    <script>
+        var btn = document.getElementById('btn');
+        var input = document.querySelector('input');
+        btn.onclick = function() {
+            input.value = '被点击了';
+            input.disabled = true;
+            表示点击了一次按钮之后这个按钮就会被禁用， 也就是说这个按钮就只能用一次
+            this.disalbe = true;   是一样的效果，  this表示当前的对象
+
+        }
+    </script>
+
+    
+
+    也能通过js修改元素的大小 颜色 位置等样式
+
+    element.style   行内样式操作
+    element.className  类名样式操作
+
+    div.onclick = function() {
+        div.style.backgroundColor = "blue";
+
+        div.className = 'change';
+        表示把div的一开始类名  现在改为了  change   className  会直接覆盖之前的类名， 也就是之前的类名不存在了
+
+        
+    }
+    如果js设置的样式 和 css设置的样式冲突了  那么就是以js的为准，  js的样式可以理解为是行内样式  权重比较高
+
+    
+    
+    获取焦点  onfocus  
+    获取焦点就是在输入框中 光标点击了输入框 就叫获取焦点
+
+    失去焦点 就是光标不在输入框中
+
+
+    获取元素的属性值  有两种方法
+        element.属性   这个只能获取元素内置的属性
+
+        element.getAttribute('属性')   这个方法是为了可以获取我们自定义的属性
+        
+    设置元素的属性值  也有两种方法
+        element.属性 = '值'
+
+        element.setAttribute('属性', '值')    这个主要是针对自定义的属性
+
+    移除属性
+        elememnt.removeAttribute('属性'); 
+
+    自定义的属性一定要有 data- 开头  只要有这个就说明是自定义的属性
+
+    element.dataset   这个里面存放了所有以data开头的属性的集合
+
+    节点有三个类型：  nodeType(节点类型) nodeName(节点名称) nodeValue(节点值)
+        元素节点 nodeType : 1
+        属性节点 nodeName: 2
+        文本节点 nodeValue: 3
+
+
+    <div>
+        <p></p>
+    </div>
+
+    我们可以这样获取div标签
+
+    var p = document.getElementByTagName('p');
+    这个得到的是离p最近的父节点
+    p.parentNode;
+
+    p.children  这个返回的是所有的子元素节点
+
+    p.childNodes  返回的的是所有的孩子节点， 包含了文本节点 和 元素节点  可以通过nodeType 去筛选
+
+
+
+    键盘事件
+        onkeyup   某个键盘按键被松开时触发
+        onkeydown  某个键盘按键被按下时触发
+        上面两个是不区分大小写的   onkeypress  这个是区分大小写的  但是不识别功能键
+        onkeypress  某个键盘按键被按下时 触发  但是不识别功能键 比如ctrl  shif 箭头等
+
+
+        keyCode  可以获取按下哪个键的ASCII码值
+
+        document.addEventListener('keyup', function(e) {
+            e.keyCode;
+
+        })
+
+
+        BOM 是浏览器对象模型  是与浏览器交互的对象
+        核心对象是  window
+
+            onload  是等页面全部加载完毕，包含css 图片 flash等
+            DOMContentLoaded 是MOD加载完毕，不包含图片 css 就可以执行  加载速度会更快点
+ 
+
+
+        window.onload = function() { 这个是页面的加载事件，  就是当文档内容全部加载完之后在执行这个语句
+
+        }
+
+
+        调整窗口大小事件
+            window.onresize = function() {}   只要是浏览器的窗口的大小发生了变化就会触发这个
+            window.addEventListener("resize", function(){});
+
+            window.innerWidth  获取当前屏幕的宽度
+
+        
+
+        window 对象给我们提供了2个非常好用的  定时器：
+            setTimeout(调用的函数，[延迟的毫秒数]);  该定时器是在定时器到期后执行调用函数
+
+                setTimeout(function() {}, 2000);  表示过了2秒之后再调用里面函数，  也可以写函数名
+                window.clearTimeout(timeoutID)  停止setTimeout()定时器  里面的参数是定时器的名字
+
+
+
+            setInterval(function() {}, 2000)  参数是， 先是回调函数， 之后再是时间，  这个一旦执行， 就是一直执行， 每个间隔的时间执行一次
+            window.clearInterval(ID)  停止定时器
+
+
+    window 对象给我们提供了一个history对象， 与浏览器历史记录进行交互
+
+    back()  回退功能
+    forward()  前进功能
+    go(参数) 前进后退功能  参数如果是1  前进1个页面， 如果是-1 后退一个页面
+
+
+ -->
+<body>
+
+
+
+</body>
+</html>

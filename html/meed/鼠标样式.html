@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        input {
+            outline: none;
+        }
+
+
+    </style>
+
+</head>
+<!-- 
+
+    语法：  设置鼠标的样式  
+        cursor: pointer
+
+        属性值有
+            default  默认的
+            pointer  小手
+            move   移动
+            text    文本
+            not-allowed   禁止
+
+
+
+    在一个表单中的输入框中  会有一个默认的轮框  有时候我们不需要轮框  所以我们会设置  outline  来取消轮框
+
+    outline: none  设置成这样就可以去掉轮框
+
+    在文本域中  默认的时候会有一个 拖动 使其变大的小小标
+
+    我们可以设置  resize: none  使其不能拖动变大， 该是什么样就是什么样
+
+
+
+
+    要使用这个属性  只能是行内块元素  或者 行内元素，块元素是没有这个属性的   
+    我们使用  vertical-align  可以使图片和文字垂直居中对齐
+        vertical-align
+            baseline  默认
+            top   把元素的顶端与行中最高的元素的顶端对齐
+            middle  把元素放在父元素的中部
+            bottom 把元素的顶端与行中最低的元素的顶端对齐
+
+    如果把一张图片放在一个盒子里  那么底部会出现  空白缝隙，  如果要去掉的话， 
+    就要加个属性  vertical-align: middle 
+
+
+
+    1. 单行文本溢出
+    溢出的文字可以使用省略号来代替  但是必须要满足三个条件
+        先强制一行内显示文本
+            white-space: nowrap
+        超出的部分隐藏起来
+            overflow: hidden
+        文本用省略号代替超出的部分
+            text-overflow: ellipsis
+    
+    2.多行文本溢出显示省略号
+        overflow: hidden
+        text-overflow: ellipsis
+        display: -webkit-box
+        这个表示在第几行用省略号
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+
+
+    
+
+
+    在很多盒子添加了 浮动之后 就会水平排列  但是这样就是  就会有边框重合  这样中间的边框就会粗一点
+    我们就可以使用  margin-left： -1px  这样就能实现  细边框
+    
+
+    如果我们还要经过盒子就要边框就要变色  这样我们只要设置一个相对定位(relative)  这样就能压住标准流了，
+    但是如果都设置了 相对定位， 那么我们还可以使用  z-index  设置层叠的大小
+
+
+    只要给  父元素  设置 text-align: center   这样它里面的  行内元素和行内块元素都会水平居中
+
+
+    
+
+ -->
+<body>
+
+
+    <input type="text">
+
+</body>
+</html>

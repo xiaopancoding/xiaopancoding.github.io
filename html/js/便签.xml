@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person>
+    <name>panjianmin</name>
+    <Age>10</Age>
+</Person>
+
+
+
+
+<!-- 
+
+    xml 是可扩展标记语言
+
+    xml的标签是自己取的名字， 一般取得就是表示内容的意思的标签
+
+    文档描述、验证、约束技术 ------- DTD/Schema
+    文档转换技术  -----  XSLT
+    数据查询技术 ---  XPath
+    链接技术 ----- XLink/XPointer
+    编程接口 ----- DOM/SAX
+
+    <Person> 这里的标签都是自己定义的
+        <name>
+            <first>pan</first>
+            <last>jianmin</last>    
+        </name>
+        <Age>20</Age>
+    </Person>
+
+
+    xml旨在传输数据， 重点关注数据
+    html 旨在显示数据 ， 重点关注数据的外观
+
+    在xml中根元素有且只有一个  例如上面的 <Person></Person> 就是一个根元素
+
+    元素的命名规范：
+        名字不能以 XML， xml， Xml 等开头
+        名字可以包含字母，数字，连字符-，下划线, 点.
+        名字不能有空格
+        名称中不能有冒号
+        
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <Name id="1"> </Name>  这里的id就是属性， 1就表示属性值，
+
+        属性也能保存数据， 但是应该多使用元素来保存数据， 少使用属性来保存数据， 属性难以维护和阅读
+        属性名是不能有重复的 
+
+        &lt;   <
+        &gt;   >
+        &amp;   &
+        &quot;  "
+        &apos;  '
+
+        如果在一个xml文档中有大量的实体描述，  那我们可以使用， "CDATA节" 描述
+        "CDATA节" 就是把整段文字解释为纯字符数据，
+            语法：
+            <![CDATA[
+
+            ]]>
+           // CDATA是不能嵌套的
+
+           如果在html中的文档和xml中的文档合并，  但是如果有相同的标签名这样就会发生冲突， 这时xml就用命名空间解决
+                命名空间的语法： xmlns:前缀="uri"
+
+                例如
+                    <h:table xmlns:h="uri">  这里面的h就是前缀， html的uri是固定的 http://www.w3.org/TR/html5/
+
+                    </h:table>
+
+                    xml中uri就是自定义的了
+
+
+
+
+
+-->
+
+
+
+
+
+

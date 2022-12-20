@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cl {
+            position: relative;
+            width: 400px;
+            height: 500px;
+            background-color: aqua;
+            margin: 30px auto;
+        }
+        .cl img {
+            width: 100%;
+            height: 100%;
+        }
+        .yin {
+            /* 这里设置了绝对定位   子级设置绝对定位， 那么父级也要设置定位  一般来讲父级是设置相对定位*/
+            position: absolute;
+            display: none;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .4);
+        }
+
+        .cl:hover .yin {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cl">
+        <div class="yin"></div>
+        <img src="./图片.png" alt="">
+    </div>
+</body>
+</html>

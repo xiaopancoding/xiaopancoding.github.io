@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="00">
+    <script src="./jquery-3.5.1.js"></script>
+
+    <script>
+        $(function() {
+
+            $("#01").click(function() {
+                $("#00").css("background-color", "white");
+            });
+
+            
+            $("#02").click(function() {
+                $("#00").css("background-color", "black")
+            });
+                
+
+            $("#02+div") // 这个意思表示id为02的下一个div标签 也就是说+号就是下一个标签
+            $("#02~div")  // 这个意思表示id为02后面所有div兄弟元素
+
+        });
+    </script>
+
+    <button id="01">白天</button>
+    <button id="02">夜间</button>
+</body>
+</html>

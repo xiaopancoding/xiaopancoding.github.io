@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            perspective: 100px;
+        }
+        img{
+            display: block;
+            width: 200px;
+            margin: 100px auto;
+            transition: all 1s;
+        }
+
+
+        img:hover {
+            transform: rotateX(180deg) ;
+        }
+    </style>
+</head>
+<!-- 
+    transform:  translateX() translateY() translateZ();
+
+        这个就是3d的移动效果， 这个z轴是垂直于屏幕的， 也就是如果设置一个正值，  是向外面移动的，一般来讲是看不见的， 要设置透视才能看见
+
+        还可以  transform: translate3d(x, y, z);  
+            这里面的值不能省略 不想写就写0px 
+
+        要设置透视才能看见3d的效果
+
+    perspective：xx px;
+    perspective: xx px;
+
+    
+    
+    
+
+        透视其实就是视距， 模拟眼睛到屏幕的距离
+        透视是写在，被观察元素的  父盒子  上面的
+        会呈现出  近小远大的效果来，  
+
+    
+    transform: rotateX(45deg);  沿着x轴正方向旋转
+    transform: rotateY(45deg);  沿着y轴正方向旋转
+    transform: rotateZ(45deg);  沿着z轴正方向旋转
+    transform: rotate3d(x, y, z, deg);  沿着自定义轴旋转deg为角度
+
+
+    transform-style  3d呈现
+        控制子元素是否开启三维立体环境
+
+
+        
+
+        transform-style: flat 默认的  不开启3d立体空间
+
+        transform-style: preserve-3d 子元素开启立体空间
+
+        代码写给父元素  影响的是子盒子 
+
+    transform-style: 
+
+
+ -->
+<body>
+    <div>
+        <img src="../kaishi/11.jpg" alt="">
+    </div>
+    
+</body>
+</html>

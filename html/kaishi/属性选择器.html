@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        /* 这样的叫id选择器 */
+        #re {
+            color:blue;
+        }
+
+        /* 这样就元素选择器 */
+        p{
+            color:aqua;
+        }
+
+        /* 这样的叫类选择器， 通过类一个类来选择的， 这个类选择器是可以重复的， 这个和id选择器是不同的， id选择器，
+         一般来讲是不能能相同的， 如果类选择器相同， 可以表示这几个标签属于同一类， 可以通过一个类选择器， 选择几个标签
+         */
+        .blue {
+            color:azure;
+            font-size: 10px;  /* 这个是设置字体大小的*/
+        }
+
+        /* 这个是通配选择器， 表示选中所有的标签 */
+        *{
+            color:aliceblue;
+        }
+
+
+        /*  这个为复合选择器， 表示选中类为blue的p标签， 这个表示交集， 也就是说 两个都要满足才行
+            可以一直写下去， 那么就表示所有的交集， 也就是说要满足所有的条件才行 
+        */
+        p.blue {
+            color:bisque;
+        }
+
+        /* 这个表示并集， 也就是满足其中一个就行， 也可以理解为都选择， 也就是p标签要选择，button标签也要选择 */
+        p, button {
+            color:bisque;
+        }
+        /* 这两个复合选择器， 最主要的就是交集选择器，是中间没有空隙的， 而并集选择器有逗号分隔的 */
+
+
+        /* 这个表示前面的父元素， 后面的子元素，  是父元素后面的所有直系子元素 */
+        p > span {
+            color:bisque;
+        }
+
+        /* 用空格的表示div 的后代元素， 只要是后代都要选中， 不管是子后代还是孙子后代 
+            那么这个叫后代选择器
+        */
+
+        div span {
+            color: blue;
+        }
+
+        /* 这个表示 选择下一个兄弟， 就只是下一个兄弟， 再下一个都不行 */
+        p+div {
+            color:bisque;
+        }
+
+        /* 这个表示选择p标签下边所有的兄弟标签， + ~ 都是下边的， 上边的都不行 */
+        p~span {
+            color:aqua;
+        }
+
+
+        /* []这个表示属性选择器， 里面填的是， 属性名， 比如下面的title就是属性名
+            [属性名=值] 表示选中某个属性名且值为啥的 标签
+            ^= 这个表示是以什么什么开头
+            $= 表示以什么什么结尾
+            *= 表示某个属性值里面有什么就行 只要有就行    
+        */
+        p[title] {
+            color: azure;
+        }
+
+
+        /*  : 这个表示伪类  :: 这个表示伪元素 */
+
+        /* 伪类和伪元素都是不存在， 它是表示一个特殊的状态， 是一种状态， 比如什么什么第一个，最后一个，鼠标移入这些状态 */
+
+        /* 
+            :first-child  这个就表示第一个， 就是始终都是第一个， 是第一的这种状态
+            :last-child  表示最后一个， 是最后的那种状态
+            :nth-child()  表示第几个，0~n  n的话， 就表示全部，  odd表示奇数， even表偶数
+            这里是全部元素排序，就是总的第一个
+
+
+            :first-of-type 这个和上面的一样， 但是这里是按同一类型， 排序的  第一个最后一个等等
+            :last-of-type
+            :nth-of-type()
+            
+        
+
+            :not() 这个表示也就是取反的意思， 选中符合条件以外的
+
+            :link 用来表示没有访问过的链接(正常的链接)  但是这个正常的链接就算是访问过的链接也是正常的
+            :visited 用来表示访问过的链接
+              这两个伪类， 是a标签专属的， 只能用来改变颜色
+
+            :hover用来表示鼠标移入的状态
+
+            :active 用来表示鼠标点击的状态
+
+            :focus  用于选取获得焦点得表单元素  这个焦点元素表示  就是光标的位置， 也就是光标在哪里， 哪里就是焦点元素
+
+            一般会给input设置这个样式，
+            input:focus {
+
+            }
+
+
+            块元素有h1~h6  p, div, ul, ol, li 最典型就是div
+        
+        */
+
+        /* 
+            ::first-letter  表示第一个字母
+            ::first-line 表示第一行
+            ::selection 表示选中的内容， 是鼠标拖动的那个选中
+
+
+            ::before 元素的开始
+            ::after 元素的最后
+
+        */
+
+
+        /* 
+        
+            font-family: 这个是设置文字的字体样式的
+            
+
+            text-align: center  这个是把文字水平居中  left左对齐 (默认)  right(右对齐)
+        
+            
+            text-indent: 2em  这个设置段落的缩进， 一个em就是一个字也是16px
+            line-height 设置文字的行高， 如果有父元素， 设置和父元素一样高得话， 那么就会垂直居中
+
+
+            line-height: 等于父元素的高就能实现  垂直方向居中了
+            
+            
+        
+        */
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- <div> -->
+        <p class="blue">你知道吗</p>
+        <p title="点了你就知道" id="re" >你应该不知到</p>
+        <p><input type="password" value="000"></p>
+        <!-- <p></p> -->
+        <button>提交</button>
+
+
+        <p>
+            <span>你知道吗</span>
+            <span>我不知道</span>
+        </p>
+
+        <div>
+            <p>
+                <span>我应该喜欢你</span>
+            </p>
+            <div>123</div>
+            <p>456</p>
+        </div>
+        
+    
+    
+    <!-- </div> -->
+</body>
+</html>

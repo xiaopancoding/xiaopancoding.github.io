@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/属性选择器.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/属性选择器.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/轮廓和圆角.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/轮廓和圆角.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/导航条.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/导航条.html"
+        }
+    ]
+}

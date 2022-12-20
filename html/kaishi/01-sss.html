@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--设置编码-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  <!--设置网页的标题-->
+
+    
+    <style type="text/css">
+        div {
+            border:1px blueviolet solid;
+        }
+        p {
+            color: red;
+        }
+        #id001 {
+            color:blue;
+        }
+        
+    </style>
+</head>
+<body id="00">
+
+
+    
+    <p>  <!--这个是段落标签       单标签的意思是 开始和结束标签都是同一个-->
+        你是<br/>我的眼  <!--这个是强行换行-->
+    </p>
+    <!--每个段落之间会有点间隔， 看起来会很舒服-->
+
+
+    <!--这里是六种标题， 一级标题最大， 标题都是加粗的-->
+    <h1></h1>  
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+
+
+    <hr color="red" width="500" align="right"/>  <!--这个是水平线， 有点分割的意思把-->
+    <!-- color 设置这个水平线为什么样的颜色  align 设置这个水平线在哪个位置， 可以是在左边，右边，中间 -->
+
+    &emsp;  <!--表示占一个字那么的空格， 有点像写作文里的段落开头要空两格， 写两个这个就行了-->
+
+    &lt; <!--显示左尖角号-->
+    &gt;  <!--显示右角号-->
+
+    <div>1111</div>
+    <div>222</div>
+    <div>333</div>  <!--div 标签就只是划分区域的， 并没有什么具体的含义，默认是独占一行的， 如果有外力那是可以掰弯的 -->
+
+
+    <span></span>  <!--  这个标签没有实际意义， 主要应用在对于文本独立修饰的时候， 内容有多宽就占多宽的空间距离-->
+
+    <!-- type 里面可以写  disc这个就是默认的实心圆，circle空心圆等 表示序列的样式 none表示没有用什么样式-->
+    <ul type="square">   <!-- 这里表示的无序列表， 就是以实心圆圈为标记的-->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+
+
+
+    <ol type = "1" start="1">  <!--有序列表，  就是以1. 2.  等这样的表示-->
+        <!-- tyep 表示类型， 可以是以数字为类型， 也可以是字母等  ，start 表示从什么位置开始-->
+        <li>1</li>
+        <li>2</li>
+        <!--在ol标签中就只能放li标签， 但是在li标签中是可以放其他标签的e-->
+    </ol>
+
+
+
+    <dl> <!--这里是自定义列表-->
+        <dt></dt> <!--这里面可以是文字 也可以是图-->
+        <dd></dd>  <!--相关文字说明-->
+    </dl>
+
+    <!-- src表示图片的路径  alt只有在图片加载不出来的时候才会显示， -->
+    <img src="C:\Users\天若有情天亦老\Pictures\图片.png" alt="这里是图片加载失败后吧鼠标放在上面提示的信息" width="200">
+
+
+    <!-- title其实就是为了告诉这张图片是为干嘛的， 解释图片的作用 width 设置图片的宽度， height设置图片的高度-->
+    <img src="C:\Users\天若有情天亦老\Pictures\图片.png" title="把鼠标放在图片上所提示的信息" width="200px" height="200px">
+    <!-- 如果是只设置宽度的话， 高度就会等比例缩放， 不会导致图片失帧，当然如果只是设置高度的也是一样的 -->
+
+
+    <!-- 这个是超链接标签 href写链接  a标签的中间写你想要说明的事， 可以说这个连接指向哪里-->
+    <!-- 这里的title和img中放图片的title是一样的，都是把鼠标放上去有提示信息 -->
+    <!-- 默认是在当前的窗口打开的 如果想要在新的窗口中打开那么就要加上 target规定在何处打开 =“_self” 就是当前的页面， =“_blank” 表示在新的窗口中打开-->
+    <a href="https://www.luogu.com.cn/" title="点进去你就知道了" target="_blank">洛谷</a>
+    
+
+    <hr/ color="blue">
+    <br/>
+    <br/>
+
+
+    <!-- table表示的就是表 -->
+    <!-- border 这个属性是设置外边框和里面的距离的 -->
+    <!-- width 这个属性是设置表格的宽度  还能设置百分比（相对于父元素的，）
+        height 设置表的高度， 都是表的
+        align 设置整个表格在什么位置可以是左边默认就是左边  还可以在中间center  右边right
+        bordercolor 设置边框的颜色
+        bgcolor  填充表格里面的颜色
+        cellspacing 设置单元格与单元格之间的距离 
+        cellpadding  设置单元格与内容之间的距离
+    -->
+    <table border="1" width="500px" height="400px" align="center" bordercolor="red" bgcolor="blue"
+    cellspacing="0" cellpadding="250"> 
+        <tr align="center" valign="top"> <!--tr表示行， 一对tr就表示一个行-->
+            <td width="100" bgcolor="greed">1</td>  <!--一个td就表示一个单元格  这里就表示有两个单元哥-->
+            <td>2</td>
+
+            <!-- td上的属性， 和tr上的是一样的， 
+                如果一个单元格的设置宽度，影响的是这一整列的宽度
+                如果一个单元格的设置高度，影响的是这一整行的高度
+                bgcolor  设置当前一个单元格的颜色
+            -->
+        </tr>
+        
+        <!-- 
+            tr 的属性 
+            height 设置高度  在tr标签中是没有宽度而言的， 也就是说设置了宽度也是无效的
+            bgcolor 背景颜色， 表示单独在这一行填充一中颜色
+            align  文字水平对齐  也就是设置这一行里的单元格中的文字的位置
+            valign 文字垂直对齐  top，middle，bottom 也是设置这一行里的单元格中的文字的位置 可以是 上中下
+         -->
+        <tr>  <!--又表示一行， 也就是这里有两个行了-->
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    
+
+    <hr color="red"/>
+    <br/>
+    <br/>
+    <br/>
+
+
+    <table border="1" width="500" height="500" align="center">
+        <tr>
+            <td align="center">不毛</td>
+            <td align="center" colspan="2" rowspan="2">魏国</td>
+            <!-- colspan  这个是向水平占领这个是设置当前的单元格要占据几个单元格 上面设置成了2表示这一个单元格占了两个位置 -->
+            <!-- rowspan 垂直方向占领表示当前的单元格要占几行， 是向下占领的 -->
+            <!-- <td align="center">辽东</td> -->
+        </tr>
+        <tr>
+            <td align="center">蜀国</td>
+            <!-- <td align="center" colspan="2">西凉</td> -->
+            <!-- <td align="center">幽州</td> -->
+        </tr>
+        <tr>
+            <td align="center">南中</td>
+            <td align="center">吴国</td>
+            <td align="center">荆州</td>
+        </tr>
+    </table>
+
+
+    <table border="1" width="500" height="500" bordercolor="red" cellspacing="0">
+        <tr >
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+
+    <br/>
+    <br/>
+    <br/>
+
+    <table border="1" bordercolor="red" cellspacing="0" cellpadding="0">
+        <!-- 可以把表头设置为<thead> </thead>  表示这是表头  可以把中间的部分放在<tbody></tbody> 表名这是一个主体部分， 这样写就会有很好的可读性 -->
+        <tr height="50" align="center">
+            <th>会员姓名</th>
+            <!-- th就是表头单元格， 也就是设置了表头单元格之后这里面的字体会加粗 -->
+            <td width="150"></td>
+            <!-- <td>2</td> -->
+            <td width="100">出生日期</td>
+            <td width="150"></td>
+            <!-- <td>4</td> -->
+        </tr>
+        <tr height="50" align="center">
+            <td width="100">省份证号</td>
+            <td colspan="3"></td>
+            <!-- <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td> -->
+        </tr>
+        <tr height="50" align="center">
+            <td width="100">通信地址</td>
+            <td colspan="3"></td>
+            <!-- <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td> -->
+        </tr>
+        <tr height="50" align="center">
+            <td width="100">联系电话</td>
+            <td colspan="3"></td>
+            <!-- <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td> -->
+        </tr>
+        <tr height="50" align="center">
+            <td width="100">会员卡号</td>
+            <td colspan="3"></td>
+            <!-- <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td> -->
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    
+
+    <!-- 这里是表单的意思， 也就是用户要登入的页面， 就是什么用户名啊密码等等 -->
+    <!-- mehtod 属性设置提交方式 GET（默认）或POST -->
+
+   <form action="http://www.baidu.com" mehtod="POST">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <!-- input表示输入  主要是看后面的type类型, 如果就只是text那就是单纯的文本输入框
+    但是如果是password 就表示密码这时就会出现点点点看不到输入的是什么了
+        placeholder 就是在文本框中会有提示， 但是一旦输入的东西就会消失
+        submit 就是提交的意思  后面二点value属性就表示 点那个提交上面的字，也就是那个字是可以改的
+        如果你点了提交了 那么就会往  form标签中的 action 中的地址提交
+        name属性 表示就是会把这个属性里的值发送给后端
+        reset表示  如果点击了就要重新输入， 相当于清空之前写的用户名或密码
+        input type=radio 是单选框  name属性可以对其进行分组 checked="checked"表示默认选中
+        input type=checkbox 是复选框
+        select 标签是下拉列表框  option 标签是下拉列表框中的选项  可以使用 selected="selected" 设置默认选中
+        textarea 表示多行文本输入框 （起始标签和结束标签中的内容是默认值）
+            rows 属性设置可以显示几行的高度
+            cols 属性设置每行可以显示几个字的宽度
+        input type=button  设置按钮 如果要显示字的话， 那么就要设置value属性
+        input type=file 是文件上传域
+
+
+        表单提交的时候，数据没有发送给服务器的三种情况
+            1. 表单项没有name属性
+            2. 单选、复选(下拉列表中option标签)都需要添加value属性， 以便发送给服务器
+            3. 表单项不在提交的form标签中
+
+        GET请求的特点是：
+            1.浏览器地址栏中的地址是：action属性[+？+请求参数]
+            2. 请求参数的格式是： name=value&name=value
+            3.不安全 
+            4.他有数据长度的限制
+        POST请求的特点是：
+            1. 浏览器地址栏中只有action的属性值
+            2. 相对于GET请求要安全
+            3. 理论上没有数据长度的限制
+
+            input 中的name属性表示自己取的名字， 可以区分开一个页面中不同的表单域
+            当然也能用name属性划分为同一类
+        
+    -->
+        <!--maxlength 这个属性表示最多只能输入几个字符， value属性主要给后台人员看的， 表名用户填了什么值  -->
+        用户名: <input type="text" placeholder="输入用户名" name="1212"  maxlength="7">
+        <br>
+        密码: <input type="password" placeholder="输入密码" name="1212">
+        <input type="submit" value="登入">
+        <input type="reset" value="重新输入"><br/>
+        <input type="radio" name="sex">男<input type="radio" name="sex">女<br/>
+        国籍:
+
+        <select name="" id="">
+            <option value="">请选择国籍</option>
+            <option value="">中国</option>
+            <option value="">美国</option>
+        </select>
+
+        <textarea name="" id="you" cols="30" rows="10"></textarea>
+   </form>
+
+   <!-- font 这个标签是用来修饰字体的  color属性设置颜色， face设置字体， size设置大小 -->
+   <font color="red" face="宋体" size="7">一只狗</font>
+   
+   <!-- <label> </label>  这个标签表示就是在表单中用的， 一般把前面的字放进去， 这样点击文字就能把光标放到该放的位置了
+        但是要设置for属性  也是利用id传送到那个元素中
+    -->
+
+   <!-- iframe 这个标签可以在页面上开辟一个小区域显示一个单独的页面 -->
+   <!-- src这里写的是地址， 你要开辟那个页面的地址；  当然也能设置宽和高 用width 和 height属性 -->
+   <iframe src="第一个页面.html" frameborder="0" name="123"></iframe>
+
+
+   
+   
+     <!-- 
+    iframe和a标签组合使用时：
+        在iframe标签中使用name属性定义一个mingcheng
+        在a标签的target属性上设置iframe的name的属性值 , 这里的name属性就像id一样
+        这样就会 点击a标签 时 就会跳转上面的iframe开辟的小区域
+
+
+    
+
+
+
+
+    -->
+
+    <br/>
+    <br/>
+    <br/><br/><br/><br/>
+    <script type="text/javascript" src="./jquery-3.5.1.js"></script>
+    <script>
+        // 当用户点击了验证按钮之后，要获取输入框中内容，然后验证是否合法
+        // 验证的规则是： 必须由字母，数字， 下划线组成，并且长度是5到12
+
+        // window.onload = function() {
+        //     var obj = document.getElementById("003");
+        //     obj.onclick = function() {
+        //         // 我们操作一个标签的时候，就一定要先拿到这个标签对象
+        //         var obj1 = document.getElementById("002");
+        //         // alert(obj1);
+        //         // 如果想要获取标签属性里的值， 那么就要用对象.属性的方式进行获取
+        //         var val = obj1.value;
+                
+        //         // 如何验证字符串， 符合某个规则要使用正则
+        //         var past = /^\w{5,12}$/;
+        //         // test() 这个方法是用来比较某个字符串和我的规则是不是匹配的
+        //         // innerHtML 这个属性是可读也可写， 可读就表示可以读取一个标签中的值， 可写表示能把一个值写入标签中
+        //         var ans = document.getElementById("004");
+        //         if (past.test(val)) {
+        //             ans.innerHTML = "用户名合法";
+        //         }else {
+        //             ans.innerHTML = "用户名不合法";
+        //         }
+
+
+        //     }
+        // }
+
+        
+
+
+        $(function() {  // 表示页面加载完成之后，相当于onload事件 也就是相当于window.onload = function() {}
+            var $obj = $("#003");  // 这里就说拿到了button标签对象了
+            $obj.click(function() {
+                // alert("fwfwaefaef");
+                $("#00").css("background-color", "blue");
+            });
+
+            // 这里是通过id获取标签对象然后转化为jQuery对象， 然后利用.css 可以设置样式和获取样式
+            $("#01").css("color", "red");
+            
+
+        });
+
+
+        // /**dom对象转化为jQuery对象
+        //  * 1. 是先有DOM对象  利用getElementBy..得出来的都是DOM对象
+        //  * 2. $(DOM对象) 就可以转化为jQuery对象
+        //  * 
+        //  * jQuery对象转化为DOM对象
+        //  * 1. 先有jQuery对象
+        //  * 2.jQuery对象[下标]取出相对应的 dom对象
+        //  * 
+        //  * 
+        //  /
+        
+
+    </script>
+
+
+    <div id="01">你好搞笑啊</div>
+
+    用户名: <input type="text" id="002" value=""/>
+    <span style="color:red" id="004"></span>
+    <button id="003">验证</button>
+
+</body>
+
+</html>

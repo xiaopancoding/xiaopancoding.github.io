@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        window.onload = function() {
+            var o1 = document.getElementById("02");
+            var o2 = document.getElementById("03");
+            o1.onclick = function() {
+                
+                // getElementsByName  这方法是通过name属性去获取对象的，并且返回的是多个对象，也就是说返回的是一个集合，那么就会有长度了
+                //  checked 这个属性是在单选框和复选框里的  表示选中还是不选中 如果写了话， 那么久默认是选中的了，还有就是选中就是true不选就是false
+                // 每一个list[i] 都是一个标签对象
+                // getElementsByTagName 这个方法是通过标签名的方式获取标签对象
+
+                //如果由id属性就优先使用id 获取， 之后如果由name就使用name属性获取，最后使用标签名获取
+                
+                var list = document.getElementsByName("001");
+                for (var i = 0; i < list.length; i ++) {
+                    list[i].checked = true;
+                }
+            }
+            o2.onclick = function() {
+                var list = document.getElementsByName("001");
+                for (var i = 0; i < list.length; i ++)
+                    list[i].checked = false;
+            }
+
+        }
+    </script>
+
+    兴趣爱好: 
+    <input type="checkbox" name="001" value="cpp" > c++
+    <input type="checkbox" name="001" value="java"> java
+    <input type="checkbox" name="001" value="js" > js <br/>
+    <button id="02">全选</button>
+    <button id="03">全部不选</button>
+
+    <!-- 
+        请求：是指客户端给服务器发送数据加请求 Request
+        响应： 是指服务器给客户端回传数据，加响应 Response
+        请求和响应是成对出现的， 有请求就有响应
+
+     -->
+
+
+
+</body>
+</html>
