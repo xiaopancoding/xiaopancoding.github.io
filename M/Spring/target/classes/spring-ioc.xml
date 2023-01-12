@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="User1" class="cpm.p.pojo.User">
+
+<!--
+    Set注入， 就是set方法赋值
+        property:  通过成员变量的set方法进行赋值的
+            name:  设置需要赋值的属性名
+            value： 设置为属性所赋的值
+
+       如果想要为一个属性设置为null的话， 就要设置<null/> 标签， 不能通过value属性设置为null， 因为这样得到的是一个null的字符串， 并不是空对象
+-->
+
+<!--        <property name="age" value="10"></property>-->
+        <property name="empId" value="1"></property>
+        <property name="empName" value="潘"></property>
+        <property name="gender" value="男"></property>
+<!--       为id设置为null， 也就是为空，  就应该如下设置 -->
+        <property name="age">
+<!--            既然这个标签中没有写什么东西， 所以就能变成单标签-->
+            <null/>
+        </property>
+
+
+
+<!--
+        在xml标签中，是不能出现大小号的，也就是尖括号， 但是我们能设置  CDATE节， 快件方式是  大写的CD  在这个里面就是按照原样输出， 也就是尖括号也是能原样输出
+
+-->
+
+    </bean>
+
+
+<!--
+    构造器注入：就是通过构造器进行赋值
+        有几个constructor-arg标签就是调用有几个参数的构造器，  如果组件类中只有一个有参构造的话， 那么就能直接用value赋值， 就不用写参数名  name
+        constructor-arg标签: 调用组件类中构造器进行赋值， 一个constructor-arg就只能为一个构造器中的参数赋值， 也就是说如果你只写了一个constructor-arg就只能为一个参数赋值
+             name属性: 参数名
+             value属性： 参数值
+
+
+-->
+    <bean id="User2" class="cpm.p.pojo.User">
+        <constructor-arg name="empId" value="1"></constructor-arg>
+        <constructor-arg name="empName" value="张三"></constructor-arg>
+        <constructor-arg name="age" value="12"></constructor-arg>
+        <constructor-arg name="gender" value="女"></constructor-arg>
+    </bean>
+
+    <bean id="student1" class="cpm.p.pojo.student">
+        <property name="age" value="12"></property>
+        <property name="gender" value="男" ></property>
+        <property name="id" value="1"></property>
+        <property name="name" value="张三"></property>
+<!--        这里是引用类型了， 也就是对象， 这里就不能再用value赋值了， 只能使用ref了，
+            然后这个引用类型， 也是一个对象，然后也是能赋值的，
+            一个bean一个对象嘛, 如下就行了
+                ref属性： 就是引用，这个类型的bean的id
+-->
+        <property name="clazz" ref="clazz1"></property>
+    </bean>
+
+    <bean id="clazz1" class="cpm.p.pojo.Clazz">
+        <property name="cId" value="2"></property>
+        <property name="cName" value="你"></property>
+    </bean>
+
+
+</beans>

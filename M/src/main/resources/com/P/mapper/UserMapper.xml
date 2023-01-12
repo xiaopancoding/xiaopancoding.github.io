@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.P.mapper.UserMapper">
+
+    <insert id="insertUser">
+        insert into t_emp values
+        <foreach collection="emps" item="emp" separator=",">
+            (null, #{emp.empName}, #{emp.age}, #{emp.gender}, null)
+        </foreach>
+
+    </insert>
+
+    <resultMap id="emp" type="com.P.pojo.User">
+        <id column="emp_id" property="empId"></id>
+        <result column="emp_name" property="empName"></result>
+        <result column="age" property="age"></result>
+        <result column="gender" property="gender"></result>
+    </resultMap>
+
+    <select id="getUsers" resultMap="emp">
+        select emp_id, emp_name, age, gender from t_emp
+        where emp_id = #{empId} or age = #{age}
+    </select>
+
+
+
+
+
+</mapper>
