@@ -6,6 +6,7 @@ import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
+import java.text.*;
 
 public class ConnectText {
 
@@ -85,7 +86,13 @@ public class ConnectText {
 
         System.out.println(conn);
 
+        Class.forName("com.mysql.cj.jdbc.Driver");
+
+
+
+
 
     }
+
 
 }

@@ -39,6 +39,7 @@
         名字不能有空格
         名称中不能有冒号
         
+        
         <?xml version="1.0" encoding="UTF-8" ?>
         <Name id="1"> </Name>  这里的id就是属性， 1就表示属性值，
 
@@ -50,6 +51,7 @@
         &amp;   &
         &quot;  "
         &apos;  '
+       
 
         如果在一个xml文档中有大量的实体描述，  那我们可以使用， "CDATA节" 描述
         "CDATA节" 就是把整段文字解释为纯字符数据，
@@ -69,6 +71,35 @@
 
                     xml中uri就是自定义的了
 
+            DTD文档声明
+
+            <?xml version="1.0" encoding="UTF-8" ?>
+            <!DOCTYPE Person[
+            <!ELEMENT Person (name, age)>
+            <!ELEMENT name (#PCDATA)>
+            <!ELEMENT age (#PCDATA)>
+            ]>
+
+            <!ELEMENT NAME CONTENT>
+            1. ELEMENT  表示定义的是元素
+            2.NAME  元素的名字
+            3.CONTENT 元素的类型
+                EMPTY 该元素为空元素，但是可以有属性
+                ANY  该元素可以包含任何在DTD中定义的元素内容
+                #PCDATA  可以包含任何字符数据， 但是不能在其包含任何子元素
+                纯元素类型  只包含子元素，并且这些子元素外没有文本
+                混合类型  包含子元素和文本数据的混合体
+
+
+
+        Schema 文档结构
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            放入实际内容
+        </xs:schema>
+
+
+        
 
 
 

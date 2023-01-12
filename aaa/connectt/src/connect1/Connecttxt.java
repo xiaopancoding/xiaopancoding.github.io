@@ -12,6 +12,9 @@ public class Connecttxt {
         String user = "root";
         String password = "pjm314159?";
 
+
+
+
         return DriverManager.getConnection(url, user, password);
     }
 

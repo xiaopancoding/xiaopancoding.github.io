@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aaa.iml" filepath="$PROJECT_DIR$/aaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/connectt/connectt.iml" filepath="$PROJECT_DIR$/connectt/connectt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiexixml/jiexixml.iml" filepath="$PROJECT_DIR$/jiexixml/jiexixml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jihe/jihe.iml" filepath="$PROJECT_DIR$/jihe/jihe.iml" />
       <module fileurl="file://$PROJECT_DIR$/lenxu/lenxu.iml" filepath="$PROJECT_DIR$/lenxu/lenxu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meijulei/meijulei.iml" filepath="$PROJECT_DIR$/meijulei/meijulei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhujie/zhujie.iml" filepath="$PROJECT_DIR$/zhujie/zhujie.iml" />
     </modules>
   </component>
 </project>

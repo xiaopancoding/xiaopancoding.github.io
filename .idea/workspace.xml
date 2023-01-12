@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0ae56fa-bd1e-4487-b399-7f0a98b9c63b" name="更改" comment="">
+    <list default="true" id="3c6e9af1-78b6-426a-8e90-0ed3836fbba8" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/aaa/jiexixml/jiexixml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/jiexixml/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/jiexixml/src/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/jiexixml/src/document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/panjianminbiancheng.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/.idea/libraries/libs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/aaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/aaa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/connectt/connectt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/connectt/connectt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/connectt/src/connect1/ConnectText.java" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/connectt/src/connect1/ConnectText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/connectt/src/connect1/Deletecustonmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/connectt/src/connect1/Deletecustonmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Architect.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Architect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Designer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Equipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/NoteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/NoteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/PC.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/PC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/domain/Programmer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/java1/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/java1/Student1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/java1/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/java1/Student2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/java1/java_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/java1/java_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/BanK.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/BanK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/CMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/CMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/CheckAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/CheckAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Chou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Danli.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Danli.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/GeometricObect.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/GeometricObect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/INN.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/INN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/MANI.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/MANI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/MINe.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/MINe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/NNMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/NNMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/PERPlo.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/PERPlo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Stude.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Stude.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/T1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Woman.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/Woman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/daimakuai.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/daimakuai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/ehan.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/ehan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/jieko.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/jieko.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/m1/lanhan.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/m1/lanhan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Back.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Back.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/BackText$Cls.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/BackText$Cls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/BackText.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/BackText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Boy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/LinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/LinkNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/PassObjeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/PassObjeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/PersonS.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/PersonS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/StudentS.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/StudentS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/hao1.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/hao1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/manx/haoll.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/manx/haoll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Continue.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Continue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Operate.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/mmdl/Operate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/service/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/service/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/service/NameListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/service/NameListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/service/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/service/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/service/TeamException.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/service/TeamException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/service/TeamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/service/TeamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/aaa/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/out/production/aaa/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Alterjdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/ConnectText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Connecttxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Customers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Deletecustonmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Inserttext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Ml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/PreparedStatementtext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/SelectCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect1/Shiwu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect2/C3p0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/connectt/connect2/Druid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/Thppp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/Thre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/ThreadTT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/ThreadText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/Threadth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/THREad/maipiao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/out/production/lenxu/jva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa/src/mmdl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/aaa/src/mmdl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c语言/绘图" beforeDir="false" afterPath="$PROJECT_DIR$/c语言/绘图" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c语言/绘图/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/c语言/绘图/Debug/绘图.exe.lastcodeanalysissucceeded" beforeDir="false" />
@@ -30,6 +136,17 @@
       <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj.filters" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/c语言/绘图/绘图/绘图.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/3d" beforeDir="false" afterPath="$PROJECT_DIR$/html/3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/3d/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/3d/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/便签.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/js/便签.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/hello_world.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/owedw/kowe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/p.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python" beforeDir="false" afterPath="$PROJECT_DIR$/python" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/.idea/misc.xml" beforeDir="false" />
@@ -37,7 +154,16 @@
       <change beforePath="$PROJECT_DIR$/python/.idea/python.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/A B Problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/A B Problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/heap_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/heap_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/radix_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/radix_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/洛谷/P2678 [NOIP2015 提高组] 跳石头.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/洛谷/P2678 [NOIP2015 提高组] 跳石头.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/out/production/untitled/code/frist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/code/frist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +171,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/c语言/绘图" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="28huLe3PfTAtTNpzEGAtNJ290rf" />
+  <component name="ProjectId" id="2JJsbjPABEPTIhaZriMsCs6pl5K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,44 +182,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration name="human_activity_reco_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="panjianminbiancheng" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/studyAssistant/care-for-your-health-master/care-for-your-health-master" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/studyAssistant/care-for-your-health-master/care-for-your-health-master/human_activity_reco_deque.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.human_activity_reco_deque" />
-      </list>
-    </recent_temporary>
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="a0ae56fa-bd1e-4487-b399-7f0a98b9c63b" name="更改" comment="" />
-      <created>1651681085434</created>
+      <changelist id="3c6e9af1-78b6-426a-8e90-0ed3836fbba8" name="默认变更列表" comment="" />
+      <created>1671807595000</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651681085434</updated>
+      <updated>1671807595000</updated>
+      <workItem from="1671807596295" duration="101000" />
+      <workItem from="1671807722127" duration="57000" />
+      <workItem from="1671962158048" duration="3000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -27,7 +27,6 @@ public class SelectCustomer {
             resultSet = ps.executeQuery();  // 这里是返回一个结果集, 如果是查询的话， 就要返回一个结果集，  判断了下这个结果集有没有下一条数据，
 
 
-
             // 这个结果集一开始指向的一个头节点， 是空的，
             if (resultSet.next()) {  // 这里的next就是一个指针，判断结果集的下一条是否有数据，如果有就返回true， 指针下移， 如果没有就返回false， 指针不动
 
@@ -35,6 +34,7 @@ public class SelectCustomer {
                 String name = resultSet.getString(2);
                 String email = resultSet.getString(3);
                 Date date = resultSet.getDate(4);
+
 
                 System.out.println("id: " + id + " name: " + name + " email: " + email + " date: " + date);
 
@@ -57,6 +57,7 @@ public class SelectCustomer {
         try {
             con = Connecttxt.Enall();
             ps = con.prepareStatement(sql);
+
             for (int i = 0; i < str.length; i ++)
                 ps.setObject(i+1, str[i]);
             res = ps.executeQuery();

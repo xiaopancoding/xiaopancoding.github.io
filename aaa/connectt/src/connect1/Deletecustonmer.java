@@ -20,6 +20,7 @@ public class Deletecustonmer {
 
             ps.execute();
 
+
         }catch (Exception e) {
             e.printStackTrace();
         }finally {
@@ -50,6 +51,7 @@ public class Deletecustonmer {
         }
     }
 
+
     // 同一张表中， 通用的查询操作
     public Customers queryForcustomer(String sql, Object ... str) {
 
@@ -66,6 +68,7 @@ public class Deletecustonmer {
 
             // 获取结果集的元数据, 可以理解为 拿到了几个数据，
             ResultSetMetaData rsmd = res.getMetaData();
+//            ResultSetMetaData metaData = res.getMetaData();
 //            可以理解为拿到了 几个字段， 就是你在查询时，写了几个字段， 就返回几个
             int count = rsmd.getColumnCount();  // 返回数据有几个， 也就是字段有几个了
             if (res.next()) {
@@ -83,6 +86,7 @@ public class Deletecustonmer {
                     // 给customers对象指定的columnname属性， 赋值为value： 通过反射
                     // 通过反射 找到类中属性名和这里的列名一样的 属性， 然后给这个属性进行赋值
 //                    Field field = Customers.class.getDeclaredField()
+//                    Filed filed = Customers.class.getDeclaredField(columnname)
                     Field field = Customers.class.getDeclaredField(columnname);
                     field.setAccessible(true);
 //                    field.setAccessible(true);
@@ -174,4 +178,8 @@ public class Deletecustonmer {
         return null;
     }
 
+
+    public void txt() {
+
+    }
 }

@@ -70,8 +70,6 @@ public class Druid {
 
     public static void selectll() {
 
-
-
         QueryRunner runner = new QueryRunner();
         Connection con = null;
         PreparedStatement ps = null;
@@ -97,7 +95,9 @@ public class Druid {
         }finally {
             Connecttxt.closeResource(con, ps);
         }
+
     }
+
 
     public <T> T dd(Class<T> clazz, String sql, Object ...str) {
         Connection con = null;
@@ -133,6 +133,7 @@ public class Druid {
 
         return null;
     }
+
 
     public void f() {
         Connection con = null;
