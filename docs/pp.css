@@ -1,0 +1,5 @@
+.cover {
+    /* background-image: url(_media/pj.png); */
+    /* background-size: cover; */
+    filter: none !important;   /* 这个就是去掉模糊效果 */
+}

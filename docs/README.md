@@ -16,4 +16,5 @@
 
 持续更新中......
 
+<div id="gitalk-container"></div>
 <!-- <font size=10>我是尺寸</font> -->
