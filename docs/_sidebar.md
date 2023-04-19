@@ -1,6 +1,6 @@
 
 * [:alien:首页](/README.md)
-    <!-- * [pp](./pan.md) -->
+* [pp](/pan.md)
 
 <!-- * [:ant:pan](./pan.md "hello world!")   后面的  hello， world！是这一页的标题， 也就是在最上面的地方显示出来的 -->
 

@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css'
     media='all' />
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="//gitee.com/siyuanplus/gitee-comments/raw/master/dist/gitee-comments.min.css">
+
   <style type="text/css">
     .content {
       overflow: auto;
@@ -87,13 +89,14 @@
             return html + footer;
           });
 
+          //  这里是添加评论功能， 是基于 Gitalk的
           hook.doneEach(function () {
             const gitalk = new Gitalk({
-              clientID: 'aca8fb4dbb0604c9e354',
-              clientSecret: '281d35b725ba42be1127c398dd37353f152460ef',
-              repo: 'xiaopancoding.github.io',
-              owner: 'xiaopancoding',
-              admin: ['xiaopancoding'],
+              clientID: 'd1dd3285932658bbccdd',    // clientID,在github上创建OAuth应用的时候， 就会给你的
+              clientSecret: '7ca6cd594cc93cac9dae4ad213211900548d876c',  //  这个是密钥
+              repo: 'https://github.com/xiaopancoding/pinglun',   //  仓库的名称
+              owner: 'xiaopancoding',   //  拥有者
+              admin: ['xiaopancoding'],   // 也是拥有者
               id: location.pathname,
               title: 'Document Page Title',
               distractionFreeMode: false
@@ -157,6 +160,20 @@
 
   </script>
 
+<!-- <script src="//gitee.com/siyuanplus/gitee-comments/raw/master/dist/gitee-comments.min.js"></script>
+<script src="https://unpkg.com/gitment/dist/gitment.browser.js"></script>
+<script>
+  var gitment = new Gitment({
+  id: 'an-me', // 标签名称作为评论的id
+  owner: 'an-me',
+  repo: 'https://gitee.com/an-me/pinglun',
+  oauth: {
+    client_id: 'f90efccd95b037c1e68f6a3706be935e83130a7ded98b6e78ddca81944f9d2dc',
+    client_secret: '79883a74a99bc5e77c3d162c66b642cb197735954dac9fc3598325a88a2ea9a2',
+  },
+});
+gitment.render('gitment-container');
+</script> -->
 
 
 
